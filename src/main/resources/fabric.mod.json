@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "opium",
+  "version": "${version}",
+
+  "name": "Opium Client",
+  "description": "leaked by 4asik with love <3",
+  "authors": [
+    "uidinfinity",
+    "uidinfinity"
+  ],
+  "contact": {
+    "homepage": "https://discord.gg/dfYdWdKBn8",
+    "sources": "https://discord.gg/dfYdWdKBn8"
+  },
+
+  "license": "leaked by 4asik with love <3",
+  "icon": "assets/opium/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "we.devs.opium.client.OpiumClient"
+    ]
+  },
+  "mixins": [
+    "opium.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.21",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

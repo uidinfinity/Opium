@@ -1,0 +1,12 @@
+todo
+# additions
+make the discord rpc a toggleable module
+
+add block selection setting
+add entity selection setting
+implement rage system (if a player is in the rage list, all modules should target only that player)
+
+# fixes
+fix box breaker not swapping back
+fix hidden settings not being hidden
+fix discord rpc
