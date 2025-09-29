@@ -54,7 +54,7 @@ public class OpiumClient implements ModInitializer {
 	public static final boolean debug = true;
 	public static final String NAME = "Opium";
 	public static final String VERSION = "v1488+cracked";
-	public static final String AUTHOR = "_42team";
+	public static final String AUTHOR = "-4asik";
 	public static final Color COLOR = new Color(243, 86, 243);
 	public static final StackWalker STACK_WALKER = StackWalker.getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE);
 
